@@ -1,126 +1,57 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>Shower Project</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Byråkratiet</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/css/font-awesome.css" rel="stylesheet">  
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Lobster+Two' rel='stylesheet' type='text/css'>
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
 
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 <body>
 
-
-
-	<!-- Primary Page Layout
-	================================================== -->
-
-	<!-- Delete everything in this .container and get started on your own site! -->
-
-	<div class="container">
-		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px"><img id="logo" src="images/LINK.png" alt="LINK" width="500" height="100%"></h1>
-			<h3>Hello!</h3>
-			<hr />
-		</div>
-		<div class="one-third column">
-			<h3>Choose friends</h3>
-			<img id="fjes" onclick="fjes()" src="images/fjes-01.png" alt="FJES" width="194" height="111">
-			<img id="fjes1" onclick="fjes1()" src="images/fjes-02.png" alt="FJES" width="194" height="111">
-			<img id="fjes2" onclick="fjes2()" src="images/fjes-03.png" alt="FJES" width="194" height="111">
-		</div>
-		<div class="one-third column">
-			<h3>Shipping Info</h3>
-			<form method="post" action="#">
-							<div class="row">
-								<div class="6u">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-								</div>
-								<div class="6u">
-									<label for="email">Email</label>
-									<input class="text" type="email" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Password</label>
-									<input class="text" type="password" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Address</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div id="send" onclick="sent()">
-										<h3><strong>Send</strong></h3>																
-									</div>
-							</div>
-						</form>
-		</div>
-		<div class="one-third column" id="sende">
-			<h3>Sent!</h3>
-		</div>
-
-	</div><!-- container -->
-	
-	<script>
-function fjes()
-{
-document.getElementById('fjes').style.cssText = 
- 'border: 2px solid #1edf5b';
-}
-
-function fjes1()
-{
-document.getElementById('fjes1').style.cssText = 
- 'border: 2px solid #1edf5b';
-}
-
-function fjes2()
-{
-document.getElementById('fjes2').style.cssText = 
- 'border: 2px solid #1edf5b';
-}
-
-function sent()
-{
-document.getElementById('sende').style.cssText = 
- 'display: inline';
-}
-</script>
-
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 2%">
+        <h1>Byråkratiet</h1>
+    </div>
+    </div class="row">
+      <div class="eleven columns" style="margin-top:12%">
+        <h1 class="quote" >"Totalprovenyet"</h1>
+      </div>
+    <div class="row">
+      <div class="eleven columns">
+       <button class="buttons"> <i class="fa fa-refresh fa-spin"></i>  Give me more</button>
+       <button class="button2"><i class="fa fa-chevron-right"></i> What does this mean?</button>
+    </div>
+    </div>
+  </div>
 
 <!-- End Document
-================================================== -->
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
