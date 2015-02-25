@@ -138,6 +138,20 @@ body {
   margin-left: 20%;
   margin-right: 2%;
   }
+  #folder {
+    position: absolute;
+    top: 75%;
+    margin-left: 20%;
+  }
+  #button1{
+    color: #daebe1;
+  }
+  #form{
+    display: none;
+  }
+  #whatButton{
+
+  }
 
 
 /* Typography
@@ -219,6 +233,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
+  font-color:#daebe1;
   background-color: #33C3F0;
   border-color: #33C3F0; }
 .button.button-primary:hover,
@@ -284,6 +299,7 @@ select:focus {
 label,
 legend {
   display: block;
+  color: #daebe1;
   margin-bottom: .5rem;
   font-weight: 600; }
 fieldset {
