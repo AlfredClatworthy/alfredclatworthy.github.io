@@ -140,18 +140,33 @@ body {
   }
   #folder {
     position: absolute;
-    top: 75%;
-    margin-left: 20%;
+    top: 65%;
+    margin-left: 27%;
   }
   #button1{
     color: #daebe1;
   }
-  #form{
-    display: none;
-  }
+#form {
+  display: none;
+}
+
   #whatButton{
 
   }
+  .button2 {
+    margin-right: 2%;
+  }
+  #success {
+font-size: 90px;
+margin-left: 27%;
+color:#61CC64;
+display: none;
+  }
+  #fun{
+    color: #daebe1;
+    font-weight: 200;
+  }
+
 
 
 /* Typography
@@ -178,7 +193,10 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0; 
+font-size: 24px;
+margin-left: 22%;
+}
 
 
 /* Links
@@ -445,3 +463,5 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
