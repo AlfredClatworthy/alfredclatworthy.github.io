@@ -186,9 +186,11 @@ display: none;
     color: #daebe1;
     display: none;
     float:right;
-    margin-right: 90px;
+    margin-right: 8%;
   }
-
+hr {
+  color: #daebe1;
+}
 
 
 
